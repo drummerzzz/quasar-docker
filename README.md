@@ -1,5 +1,25 @@
 # My App (My)
 
+## Docker
+
+- after install docker and docker-compose, in directory project run in shell
+
+```bash
+make build
+```
+
+- wailt download dependences and run make up to up container.
+
+```bash
+make up
+```
+
+- use make bash to enter in bash container
+
+```bash
+make bash
+```
+
 A Quasar Framework app
 
 ## Install the dependencies
