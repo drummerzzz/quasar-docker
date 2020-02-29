@@ -1,0 +1,10 @@
+# for local development
+version: '3.3'
+services:
+  quasar:
+    build: .
+    ports:
+    - '8080:8080'
+    volumes:
+    - '.:/app'
+    command: ["./run.sh"]
